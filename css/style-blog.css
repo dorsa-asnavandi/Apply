@@ -1,0 +1,495 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: none, serif;
+    transition: 0.5s;
+}
+
+.direct {
+    direction: rtl;
+}
+
+.border-test {
+    border: 1px solid black;
+}
+
+.clear {
+    clear: both;
+}
+
+.blog-header {
+    background-color: white;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.navbar-style {
+    background-color: transparent;
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.navbar-item-style li a {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(230, 30, 30, 0.7);
+}
+
+.navbar-item-style li {
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.navbar-item-style li:hover {
+    margin: 0 4px;
+}
+
+.navbar-item-style li:hover a {
+    color: rgba(255, 30, 30, 1);
+}
+
+.navbar-item-style li a span {
+    font-size: 20px;
+}
+
+@media all and (max-width: 480px) {
+    .navbar-item-style li {
+        padding: 0;
+    }
+
+    .navbar-item-style li a {
+        font-size: 12px;
+    }
+
+    .navbar-item-style li:hover {
+        margin: 0 2px;
+    }
+}
+
+.divider-header {
+    height: 2px;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.social-network {
+    text-align: center;
+}
+
+.social-network-item {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.social-network-item span {
+    font-size: 20px;
+    margin: 2px;
+    color: rgba(230, 30, 30, 0.7);
+    transition: 1s;
+}
+
+.social-network-item:hover span {
+    color: red;
+}
+
+.main-blog-bg {
+    background-image: url("../img/sayagata-400px.png");
+}
+
+.main-img-blog {
+    width: 100%;
+    overflow: hidden;
+    max-height: 450px;
+    box-shadow: 0 0 2px 2px #999999;
+    position: relative;
+}
+
+.free-img-blog {
+    width: 100%;
+    overflow: hidden;
+    max-height: 216px;
+    box-shadow: 0 0 2px 2px #999999;
+    position: relative;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+.figcaption-structure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.2);
+    text-align: right;
+    transition: 0.5s;
+}
+
+.figcaption-structure:hover {
+    background-color: rgba(30, 30, 30, 0);
+}
+
+.figcaption-content {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    text-shadow: 0 0 3px #000000;
+}
+
+.figcaption-tag {
+    border: 1px solid white;
+    padding: 4px;
+    display: inline-block;
+}
+
+.figcaption-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+
+.figcaption-title:hover {
+    color: red;
+}
+
+.figcaption-detail {
+    font-size: 12px;
+    color: #c9c9c9;
+    font-weight: lighter;
+}
+
+.figcaption-detail span {
+    margin: 0 4px;
+}
+
+@media all and (max-width: 1200px ) {
+    .main-img-blog {
+        max-height: 400px;
+    }
+}
+
+@media all and (max-width: 576px ) {
+    .free-img-blog {
+        max-height: 400px;
+    }
+
+    .height-post {
+        margin-bottom: 20px;
+    }
+}
+
+.blog-bg {
+    height: 1000px;
+}
+
+.top-adver {
+    margin: 0 auto;
+    width: 80%;
+    max-height: 125px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.top-adver img {
+    width: 100%;
+    height: 100%;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #ff3333;
+    margin: 4px 0;
+}
+
+.divider2 {
+    margin: 6px 0;
+}
+
+.header-sec {
+    display: block;
+    text-align: center;
+}
+
+.header-sec h2 {
+    float: right;
+    font-size: 20px;
+}
+
+.header-sec span {
+    font-size: 20px;
+}
+
+.header-sec a {
+    float: left;
+    color: rgba(230, 30, 30, 0.7);
+    transition: 0.5s;
+}
+
+.header-sec a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.main-post-control {
+    width: 100%;
+    max-height: 400px;
+    box-shadow: 0 0 5px 3px #c6c8ca;
+    position: relative;
+}
+
+.figcaption-main-post {
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    width: 84%;
+    background-color: white;
+    height: 300px;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+
+.figtext-color {
+    color: #999999;
+}
+
+.figcaption-pop-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.figcaption-pop-title:hover {
+    transition: 0.5s;
+    color: rgba(230, 30, 30, 0.7);
+}
+
+.figcaption-more {
+    font-size: 14px;
+    margin-top: 10px;
+    height: 60%;
+    overflow: hidden;
+}
+
+.fig-btn {
+    display: block;
+    width: 50%;
+    background-color: transparent;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 5px;
+    color: #777;;
+    transition: 0.5s;
+}
+
+.fig-btn:hover {
+    background-color: rgba(230, 30, 30, 0.8);
+    color: white;
+    border-radius: 1px;
+}
+
+.free-pop-control {
+    width: 100%;
+}
+
+.free-pop-control img {
+    width: 25%;
+    min-height: 75px;
+    float: left;
+}
+
+.free-pop-control figcaption h2 {
+    float: right;
+    text-align: center;
+    width: 75%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.link-post:hover {
+    text-decoration: none;
+    background-color: #333333;
+}
+
+.link-post:hover .free-pop-control {
+    transition: 0.5s;
+    box-shadow: 0 0 2px 2px #eeeeee;
+}
+
+.height-post {
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+}
+
+.paging {
+    width: 100%;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.paging span {
+    margin: 10px;
+}
+
+.paging a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.main-adver {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.main-adver img {
+    width: 100%;
+    height: 100%;
+}
+
+.data-sort {
+
+}
+
+.data-sort li {
+    font-size: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    text-align: right;
+    padding: 4px;
+    list-style-type: none;
+}
+
+.data-sort li span {
+    margin-left: 4px;
+    font-weight: bold;
+    color: red;
+}
+
+.data-sort li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.data-sort li:hover {
+    transition: 0.5s;
+    padding: 4px 0;
+}
+
+/* footer section */
+footer {
+    width: 100%;
+    height: auto;
+    background-image: url("../img/sayagata-400px.png");
+}
+
+.content-footer {
+    direction: rtl;
+    text-align: right;
+}
+
+.links, .indexpages, .infous {
+    font-size: 14px;
+    height: auto;
+    padding: 10px;
+}
+
+.header-links, .header-pages, .header-infous {
+    font-size: 16px;
+}
+
+.links a, .indexpages a {
+    font-weight: bold;
+    color: rgba(230, 30, 30, 0.7);
+}
+
+.links a:hover, .indexpages a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.line1 {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(152, 131, 85, .5);
+}
+
+.overline1 {
+    width: 50px;
+    height: 3px;
+    background-color: #988355;
+}
+
+.links a {
+    display: block;
+    margin-top: 15px;
+}
+
+.links a:hover {
+    margin-right: 10px;
+}
+
+.indexpages a {
+    display: block;
+    margin-top: 15px;
+}
+
+.indexpages a:hover {
+    margin-right: 10px;
+}
+
+.line2 {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(139, 82, 115, .5);
+}
+
+.overline2 {
+    width: 50px;
+    height: 3px;
+    background-color: #8B5273;
+}
+
+.line3 {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(34, 162, 162, .5);
+}
+
+.overline3 {
+    width: 50px;
+    height: 3px;
+    background-color: #22a2a2;
+}
+
+.information {
+    font-weight: bold;
+    color: rgba(230, 30, 30, 0.7);
+}
+.information a{
+    color: rgba(230,30,30,0.7);
+}
+
+.phoneicon, .homeicon {
+    color: rgba(230, 30, 30, 0.7);
+}
+
+.icons {
+    font-size: 20px;
+    padding-right: 15px;
+    padding-top: 10px;
+    color: rgba(230, 30, 30, 0.7);
+}
+
+.icons:hover {
+    color: red;
+}
